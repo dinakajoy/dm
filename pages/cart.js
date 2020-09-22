@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../components/_App/Navbar2';
-import { useSelector } from 'react-redux';
-import PageBanner from '../components/Common/PageBanner';
 import Link from 'next/link';
+import { useSelector } from 'react-redux';
+import Navbar from '../components/_App/Navbar2';
+import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
 import Content from '../components/Cart/Content';
 

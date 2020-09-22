@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/_App/Navbar';
+import Navbar from '../components/_App/Navbar2';
 import PageBanner from '../components/Common/PageBanner';
 import Footer from '../components/_App/Footer';
 import Link from 'next/link';
