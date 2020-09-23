@@ -1,14 +1,13 @@
 import React from 'react';
-import Link from 'next/link';
-import { useSelector } from 'react-redux';
 import Navbar from '../components/_App/Navbar2';
+import { useSelector } from 'react-redux';
 import PageBanner from '../components/Common/PageBanner';
+import Link from 'next/link';
 import Footer from '../components/_App/Footer';
 import Content from '../components/Cart/Content';
 
 const Cart = () => {
     const products = useSelector(state => state.addedItems);
-    console.log(products);
     const total = useSelector(state => state.total)
     return (
         <React.Fragment>

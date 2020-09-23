@@ -45,7 +45,7 @@ Number.prototype.format = function(n, x) {
     return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
 };
 
-const TopCoursesSlider = ({courses }) => {
+const TopCoursesSlider = ({ courses }) => {
 
     const [display, setDisplay] = React.useState(false);
 

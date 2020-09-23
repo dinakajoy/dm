@@ -9,7 +9,7 @@
         "start": "next start",
         "prod": "npm run build && npm run start"
     },
-    "author": "EnvyTheme.com",
+    "author": "Loctech",
     "license": "ISC",
     "dependencies": {
         "next": "^9.5.1",

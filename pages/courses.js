@@ -6,7 +6,7 @@ import CoursesCard from '../components/Courses/CoursesCard';
 import Footer from '../components/_App/Footer';
 
 const Courses = () => {
-    const courses = useSelector((state) => state.courses.coursesData)
+    const courses = useSelector((state) => state.courses.coursesData);
     return (
         <React.Fragment>
             <Navbar />

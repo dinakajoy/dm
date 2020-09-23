@@ -8,7 +8,7 @@ import Footer from '../components/_App/Footer';
 
 
 
-const BlogDetails = () => {
+const CoursesCategory = () => {
     const router = useRouter();
     const courses = useSelector((state) => state.courses.coursesData);
     const category = router.query.category;
@@ -30,4 +30,4 @@ const BlogDetails = () => {
     );
 }
 
-export default BlogDetails;
+export default CoursesCategory;

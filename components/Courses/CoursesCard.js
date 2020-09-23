@@ -39,7 +39,7 @@ const CoursesCard = ({ courses }) => {
 
                     <div className="card myCard" style={{backgroundColor: '#dcfcfe'}}>
                       <div className="product-image card-img-top">
-                        <Link href="/courses/[id]" as={`/courses/${course.id}`}>
+                        <Link as={`/courses/${course.id}`} href="/courses/[id]">
                           <a>
                             <img src={course.image} alt="Image" />
                           </a>
@@ -64,7 +64,7 @@ const CoursesCard = ({ courses }) => {
                           <span>NGN{course.price.format(2)}</span>
                         </div>
                         <p className="card-text">{course.description.substring(0, 80)}...</p>
-                        <Link href="/courses/[id]" as={`/courses/${course.id}`}>
+                        <Link as={`/courses/${course.id}`} href="/courses/[id]">
                           <a className="btn btn-primary">Learn More</a>
                         </Link>
                       </div>
@@ -75,8 +75,6 @@ const CoursesCard = ({ courses }) => {
             )) : (
               <h2>Empty</h2>
             )}
-
-
 
                                 {/* <div className="product-image">
                                     <Link href="/product/[id]" as={`/product/${product.id}`}>

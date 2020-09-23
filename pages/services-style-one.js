@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../components/_App/Navbar2';
+import Navbar from '../components/_App/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import ServicesOne from '../components/Services/ServicesOne';
 import HowItWorks from '../components/Common/HowItWorks';
