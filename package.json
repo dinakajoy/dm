@@ -12,6 +12,7 @@
     "author": "Loctech",
     "license": "ISC",
     "dependencies": {
+        "mongoose": "^5.10.7",
         "next": "^9.5.1",
         "next-redux-wrapper": "^6.0.2",
         "react": "^16.13.1",
