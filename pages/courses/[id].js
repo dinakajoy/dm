@@ -10,11 +10,9 @@ import Footer from '../../components/_App/Footer';
 
 const ProductDetails = () => {
     const router = useRouter();
-    const { id } = router.query;
     const courses = useSelector((state) => state.courses.coursesData);
+    const id = router.query.id;
     const course = courses.find(c => c.id === id);
-    console.log(id);
-    console.log(course);
     return (
         <React.Fragment>
             <Navbar />
@@ -23,7 +21,7 @@ const ProductDetails = () => {
             <div className="product-details-area ptb-100">
                 <div className="container">
                     <div className="row align-items-center">
-                        <ProductDetailsContent course={course} />
+                        <ProductDetailsContent {...course} />
 
                         {/* <div className="col-lg-12 col-md-12">
                             <ProductsDetailsTab {...course} />
