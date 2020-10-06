@@ -141,6 +141,12 @@ const Navbar = () => {
                                                 <a onClick={toggleNavbar} className="nav-link">Contact Us</a>
                                             </Link>
                                         </li>
+
+                                        <li className="nav-item">
+                                            <Link href="/admin-dashboard" activeClassName="active">
+                                                <a onClick={toggleNavbar} className="nav-link">Admin Dashboard</a>
+                                            </Link>
+                                        </li>
                                     </ul>
                                 
                                     <div className="others-option">

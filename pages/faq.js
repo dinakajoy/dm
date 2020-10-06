@@ -17,7 +17,7 @@ const Faq = () => {
                 imgClass="bg-6" 
             /> 
             <FaqContent />
-            <FaqContactForm />
+            {/* <FaqContactForm /> */}
             <Footer />
         </React.Fragment>
     );

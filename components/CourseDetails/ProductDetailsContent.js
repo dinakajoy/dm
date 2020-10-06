@@ -4,10 +4,10 @@ import Router from 'next/router';
 import { useDispatch } from 'react-redux';
 import { toast } from 'react-toastify';
 
-// Number.prototype.format = function(n, x) {
-//     var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
-//     return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
-// };
+Number.prototype.format = function(n, x) {
+    var re = '\\d(?=(\\d{' + (x || 3) + '})+' + (n > 0 ? '\\.' : '$') + ')';
+    return this.toFixed(Math.max(0, ~~n)).replace(new RegExp(re, 'g'), '$&,');
+};
 
 const ProductDetailsContent = ({id, title, price, image, description}) => {
     const dispatch = useDispatch()
@@ -61,7 +61,7 @@ const ProductDetailsContent = ({id, title, price, image, description}) => {
                     <h3>{title}</h3>
 
                     <div className="price">
-                        <span className="new-price">Price: NGN{price}</span>
+                        <span className="new-price">Price: NGN{price.format(2)}</span>
                     </div>
 
                     <div className="product-review">

@@ -9,6 +9,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import 'react-toastify/dist/ReactToastify.css'
 import '../public/css/style.css'
 import '../public/css/responsive.css'
+import '../components/AdminDashboard/AdminDashboard.css';
 
 import Layout from '../components/_App/Layout';
 import { Provider } from 'react-redux'

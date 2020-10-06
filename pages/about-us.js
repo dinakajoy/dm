@@ -11,10 +11,10 @@ const AboutUs = () => {
         <React.Fragment>
             <Navbar />
             <PageBanner 
-                pageTitle="About" 
+                pageTitle="About Us" 
                 homePageUrl="/" 
                 homePageText="Home" 
-                activePageText="About" 
+                activePageText="About Us" 
                 imgClass="bg-1" 
             /> 
             <AboutUsContent />
