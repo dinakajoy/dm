@@ -12,32 +12,32 @@ const Nav = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Home">
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
               <Link href="/admin-dashboard">
                 <a className="nav-link"><i class="fa fa-fw fa-dashboard"></i><span class="nav-link-text">Dashboard</span></a>
               </Link>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Users">
               <Link href="/admin-dashboard/users">
                 <a className="nav-link"><i class="fa fa-users"></i><span class="nav-link-text">Users</span></a>
               </Link>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Instructors">
               <Link href="/admin-dashboard/instructors">
                 <a className="nav-link"><i class="fa fa-user-plus"></i><span class="nav-link-text">Instructors</span></a>
               </Link>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Courses Categories">
               <Link href="/admin-dashboard/courses-categories">
                 <a className="nav-link"><i class="fa fa-graduation-cap"></i><span class="nav-link-text">Courses Categories</span></a>
               </Link>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Courses">
               <Link href="/admin-dashboard/courses">
                 <a className="nav-link"><i class="bx bx-chalkboard"></i><span class="nav-link-text">Courses</span></a>
               </Link>
             </li>
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Posts">
               <Link href="/admin-dashboard/posts">
                 <a className="nav-link"><i class="fa fa-fw fa-list"></i><span class="nav-link-text">Posts</span></a>
               </Link>
