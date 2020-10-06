@@ -12,7 +12,6 @@ const InstructorDetails = () => {
   const instructors = useSelector((state) => state.instructors.instructorsData);
   const id = router.query.id;
   const instructor = instructors.find(i => i.id === id);
-  
   return (
     <React.Fragment>
       <Navbar />
